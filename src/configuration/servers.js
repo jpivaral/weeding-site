@@ -1,1 +1,1 @@
-export const FAMILY_API = "http://localhost:8080";
+export const FAMILY_API = "http://192.168.50.2:8080";

@@ -16,7 +16,7 @@ export const FamilyList = props => (
 export const FamilyEdit = props => (
     <Edit {...props}>
         <SimpleForm>
-            <TextInput source="id" editable = {false} />
+            <TextField source="id" />
             <TextInput source="name" />
             <NumberInput source="adultMembers" />
             <NumberInput source="childrenMembers" />
